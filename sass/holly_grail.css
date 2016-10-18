@@ -1,0 +1,38 @@
+/* line 1, C:/Users/karryd/Google Drive/webutv2_te14/flexbox/sass/holly_grail.sass */
+body {
+  background: #555; }
+
+/* line 5, C:/Users/karryd/Google Drive/webutv2_te14/flexbox/sass/holly_grail.sass */
+.kontainer header {
+  background: orange;
+  height: 100px;
+  padding: 20px; }
+
+/* line 10, C:/Users/karryd/Google Drive/webutv2_te14/flexbox/sass/holly_grail.sass */
+.kontainer main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch; }
+  /* line 18, C:/Users/karryd/Google Drive/webutv2_te14/flexbox/sass/holly_grail.sass */
+  .kontainer main .sidebar1 {
+    width: 15%;
+    background: yellow; }
+  /* line 22, C:/Users/karryd/Google Drive/webutv2_te14/flexbox/sass/holly_grail.sass */
+  .kontainer main .text {
+    width: 70%;
+    background: blue; }
+  /* line 26, C:/Users/karryd/Google Drive/webutv2_te14/flexbox/sass/holly_grail.sass */
+  .kontainer main .sidebar2 {
+    width: 15%;
+    background: yellow; }
+
+/* line 30, C:/Users/karryd/Google Drive/webutv2_te14/flexbox/sass/holly_grail.sass */
+.kontainer footer {
+  background: orange;
+  height: 50px;
+  padding: 20px; }
+
+/*# sourceMappingURL=holly_grail.css.map */
